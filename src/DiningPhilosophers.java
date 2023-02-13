@@ -8,12 +8,12 @@ public class DiningPhilosophers {
         Scanner inp = new Scanner(System.in);
         System.out.print("Enter 1, 2, or 3: ");
         int input = inp.nextInt();
-        inp.close();
+//        inp.close();
         if(input==3){
-            Scanner sc = new Scanner(System.in);
+//            Scanner sc = new Scanner(System.in);
             System.out.print("Enter the number of philosophers: ");
-            numPhilosophers = sc.nextInt();
-            sc.close();
+            numPhilosophers = inp.nextInt();
+            inp.close();
 
             Lock[] chopsticks = new ReentrantLock[numPhilosophers];
             for (int i = 0; i < numPhilosophers; i++) {
