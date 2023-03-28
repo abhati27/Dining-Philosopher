@@ -1,4 +1,8 @@
 # Dining Philosopher Problem
+
+![dinephil](https://user-images.githubusercontent.com/60200047/228372229-9095a61a-34d4-4bed-a064-b701cb68583f.png)
+
+
 This program demonstrates the Dining Philosopher problem, which is a classic problem in computer science that illustrates the challenges of synchronizing concurrent processes. The problem involves a group of philosophers who are sitting at a round table, with a chopstick placed between each pair of adjacent philosophers. Each philosopher needs two chopsticks to eat, one on the left and one on the right, and they can only use the chopsticks that are next to them. The challenge is to prevent the philosophers from deadlocking, where each philosopher is holding one chopstick and waiting for the other.
 
 ## Usage
